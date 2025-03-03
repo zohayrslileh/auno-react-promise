@@ -1,0 +1,40 @@
+{
+  "name": "@auno/react-promise",
+  "version": "1.5.0",
+  "description": "A powerful React hook for handling asynchronous operations with built-in state management",
+  "module": "index.tsx",
+  "type": "module",
+  "keywords": [
+    "react",
+    "promise",
+    "hook",
+    "async",
+    "typescript",
+    "state-management"
+  ],
+  "author": "zohayrslileh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zohayrslileh/auno-react-promise"
+  },
+  "bugs": {
+    "url": "https://github.com/zohayrslileh/auno-react-promise/issues"
+  },
+  "homepage": "https://github.com/zohayrslileh/auno-react-promise#readme",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.0.10"
+  },
+  "peerDependencies": {
+    "typescript": "^5",
+    "react": "^19.0.0"
+  },
+  "files": [
+    "index.tsx",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
