@@ -14,23 +14,23 @@ A powerful React hook for managing asynchronous operations with built-in loading
 
 ## Installation
 
+#### npm
 ```bash
-# npm
 npm install @auno/react-promise
 ```
 
+#### yarn
 ```bash
-# yarn
 yarn add @auno/react-promise
 ```
 
+#### pnpm
 ```bash
-# pnpm
 pnpm add @auno/react-promise
 ```
 
+#### bun
 ```bash
-# bun
 bun add @auno/react-promise
 ```
 
