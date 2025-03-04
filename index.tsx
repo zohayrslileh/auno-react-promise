@@ -224,7 +224,7 @@ export type Reset = () => void
 export type PromiseWithDependencies<Solve, Data extends unknown[] = []> = (SolveStatus<Solve> | ExceptionStatus | PendingStatus) & {
     safeExecute: ExecuteWithDependencies<Promise<Awaited<Solve | undefined>>, Data>
     execute: ExecuteWithDependencies<Promise<Awaited<Solve>>, Data>
-    dispatch: Update<Solve>
+    dispatch: Update<Awaited<Solve>>
 }
 
 /**

@@ -1,6 +1,6 @@
 {
   "name": "@auno/react-promise",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "A powerful React hook for handling asynchronous operations with built-in state management",
   "module": "index.tsx",
   "type": "module",
